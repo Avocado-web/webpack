@@ -1,0 +1,26 @@
+{
+    "name": "3dglo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "build": "webpack --mode=production",
+        "watch": "webpack --watch --mode=development",
+        "start": "webpack serve --mode=development --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Avocado-web/3DGLO.git"
+    },
+    "author": "Igor Ahparov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Avocado-web/3DGLO/issues"
+    },
+    "homepage": "https://github.com/Avocado-web/3DGLO#readme",
+    "devDependencies": {
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.8.1"
+    }
+}
